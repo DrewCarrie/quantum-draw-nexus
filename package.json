@@ -1,6 +1,6 @@
 {
   "name": "encrypted-lucky-draw",
-  "description": "Encrypted lucky draw MVP built on Zama FHEVM",
+  "description": "Encrypted lucky draw MVP built on Zama FHEVM - Privacy-preserving lottery system",
   "version": "0.1.0",
   "engines": {
     "node": ">=20",
