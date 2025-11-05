@@ -1,5 +1,7 @@
 # Encrypted Lucky Draw Frontend
 
+A modern Next.js dashboard for interacting with the Encrypted Lucky Draw smart contract.
+
 This Next.js app is the user-facing dashboard for the Encrypted Lucky Draw MVP. It connects to the FHE-enabled smart
 contract, lets users submit encrypted registrations, triggers an on-chain draw, and decrypts the winning ciphertext
 directly in the browser.
