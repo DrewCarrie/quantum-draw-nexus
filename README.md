@@ -5,6 +5,10 @@ Homomorphic Encryption Virtual Machine (FHEVM). Participants submit their names 
 selects a random encrypted index, and every participant can locally decrypt the winning entry without leaking any clear
 text to the blockchain.
 
+## Overview
+
+This project implements a fully encrypted lottery system using Zama's FHEVM technology.
+
 ## Key Capabilities
 
 - **Homomorphic participant storage** – participant names are turned into 64-bit fingerprints and stored as `euint64`
