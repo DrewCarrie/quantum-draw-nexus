@@ -1,6 +1,6 @@
 {
   "name": "encrypted-lucky-draw-frontend",
-  "description": "Next.js dashboard for the Encrypted Lucky Draw MVP",
+  "description": "Next.js dashboard for the Encrypted Lucky Draw MVP - User interface for privacy-preserving lottery",
   "version": "0.3.0",
   "private": true,
   "license": "BSD-3-Clause-Clear",
