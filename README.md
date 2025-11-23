@@ -9,6 +9,11 @@ text to the blockchain.
 
 This project implements a fully encrypted lottery system using Zama's FHEVM technology.
 
+## Live Demo & Resources
+
+- **🌐 Live Deployment**: [https://lotteryxa.vercel.app/](https://lotteryxa.vercel.app/)
+- **🎥 Demo Video**: [Download lottery.mp4](lottery.mp4) (Project demonstration video)
+
 ## Key Capabilities
 
 - **Homomorphic participant storage** – participant names are turned into 64-bit fingerprints and stored as `euint64`
