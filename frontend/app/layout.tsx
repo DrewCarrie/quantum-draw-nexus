@@ -4,6 +4,7 @@ import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 import "./globals.css";
 import { Providers } from "./providers";
+import { Navigation } from "@/components/Navigation";
 
 export const metadata: Metadata = {
   title: "Encrypted Lucky Draw",
@@ -43,6 +44,7 @@ export default function RootLayout({
                 showBalance={false}
               />
             </nav>
+            <Navigation />
             {children}
           </main>
         </Providers>

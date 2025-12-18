@@ -29,6 +29,7 @@ export function Providers({ children }: Props) {
             fontStack: "system",
           })}
           modalSize="compact"
+          locale="en"
         >
           <MetaMaskProvider>
             <MetaMaskEthersSignerProvider initialMockChains={{ 31337: "http://localhost:8545" }}>

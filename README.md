@@ -16,13 +16,13 @@ This project implements a fully encrypted lottery system using Zama's FHEVM tech
 
 ## Key Capabilities
 
-- **Homomorphic participant storage** – participant names are turned into 64-bit fingerprints and stored as `euint64`
+- **Homomorphic participant storage** �?participant names are turned into 64-bit fingerprints and stored as `euint64`
   ciphertexts.
-- **Encrypted drawing logic** – a random winner is drawn on-chain, while the encrypted index and fingerprint remain
+- **Encrypted drawing logic** �?a random winner is drawn on-chain, while the encrypted index and fingerprint remain
   private.
-- **RainbowKit wallet UX** – RainbowKit/Wagmi provide secure wallet connection and signature flows (Metamask,
-  WalletConnect, Coinbase Wallet…).
-- **React + Next.js dashboard** – a responsive UI shows registration status, encrypted winner data, and supports local
+- **RainbowKit wallet UX** �?RainbowKit/Wagmi provide secure wallet connection and signature flows (Metamask,
+  WalletConnect, Coinbase Wallet�?.
+- **React + Next.js dashboard** �?a responsive UI shows registration status, encrypted winner data, and supports local
   decryption via the FHEVM relayer pipeline.
 
 ## Repository Layout
@@ -34,19 +34,19 @@ pro7/encrypted-lucky-draw
 ├── tasks/                        # task:register / task:draw / task:winner-* helpers
 ├── test/                         # Hardhat test suites (local + Sepolia-readonly)
 ├── frontend/                     # Next.js RainbowKit frontend
-│   ├── app/                      # Next App Router pages, layout, providers
-│   ├── components/               # React components (dashboard, error states…)
-│   ├── hooks/                    # FHEVM + lucky draw hooks
-│   ├── lib/                      # Wagmi/RainbowKit config
-│   └── public/                   # Logos and favicon
+�?  ├── app/                      # Next App Router pages, layout, providers
+�?  ├── components/               # React components (dashboard, error states�?
+�?  ├── hooks/                    # FHEVM + lucky draw hooks
+�?  ├── lib/                      # Wagmi/RainbowKit config
+�?  └── public/                   # Logos and favicon
 └── deployments/                  # hardhat-deploy artifacts (localhost & sepolia)
 ```
 
 ## Prerequisites
 
-- Node.js ≥ 20
-- npm ≥ 8
-- A browser wallet (MetaMask, Rabby…) to test the RainbowKit flow
+- Node.js �?20
+- npm �?8
+- A browser wallet (MetaMask, Rabby�? to test the RainbowKit flow
 - Optional: Sepolia RPC credentials for live network testing (`MNEMONIC`, `INFURA_API_KEY`)
 
 ## Smart Contract Workflow
