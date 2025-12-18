@@ -11,7 +11,7 @@ This project implements a fully encrypted lottery system using Zama's FHEVM tech
 
 ## Live Demo & Resources
 
-- **🌐 Live Deployment**: [https://lotteryxa.vercel.app/](https://lotteryxa.vercel.app/)
+- **🌐 Live Deployment**: [https://quantum-draw-nexus.vercel.app/](https://quantum-draw-nexus.vercel.app/)
 - **🎥 Demo Video**: [Download lottery.mp4](lottery.mp4) (Project demonstration video)
 
 ## Key Capabilities
